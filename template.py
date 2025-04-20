@@ -5,13 +5,13 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]:%(message)s')
 
 list_of_files = [
-    'src/__init__.py',
+    'src/__init__.py', 
     'src/helper.py',
     'src/prompt.py',
     '.env',
     'setup.py',
     'app.py',
-    'research/trials.py'
+    'research/trials.ipynb'
     
 ]
 
@@ -31,3 +31,8 @@ for filepath in list_of_files:
 
     else:
         logging.info(f"{filename} is already exists")
+
+
+
+
+
